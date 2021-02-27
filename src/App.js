@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import Navbar from "./components/Navbar";
+import SearchBar from "./components/SearchBar";
 import Header from "./components/Header";
 // import Card from "./components/Card";
 
@@ -12,8 +12,7 @@ class App extends Component {
         return (
             <div>
                 <Header />
-                {/* <Navbar />
-                <Card /> */}
+                <SearchBar />
             </div>
         );
     }
