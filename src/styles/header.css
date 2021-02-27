@@ -1,0 +1,19 @@
+.header {
+    background: rgb(3, 3, 77);
+    height: 200px;
+    width: 100%;
+    border-bottom: 5px solid red;
+}
+  
+.header h1 {
+    margin: 0;
+    padding-top: 75px;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+
+.header h6 {
+    text-align: center;
+    color: white;
+}
