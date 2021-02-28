@@ -1,13 +1,3 @@
-.form-group {
-    padding-top: 20px;
-    display: flex;
-    justify-content: center;
-}
-
-/* .sortByNameBtn {
-
-} */
-
-input {
-    max-width: 300px;
+.searchBar {
+    margin-top: 20px;
 }

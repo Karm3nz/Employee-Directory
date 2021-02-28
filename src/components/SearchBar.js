@@ -2,10 +2,11 @@ import React from "react";
 
 function SearchBar({ onSearch, searchTerm, handleSortByName }) { // The two props coming down from the SearchBar Component
     return (
-        <div className="form-group">
+        <div className="searchBar d-flex justify-content-around mt-3 mb-3">
             <div className="sortByNameBtn">
                 <button onClick={handleSortByName} type="button" className="btn btn-dark">Sort by Name</button>
             </div>
+            <div>
             <form>
                 <input
                     value={searchTerm} // value attribute here keeps what you type in sync
@@ -14,6 +15,7 @@ function SearchBar({ onSearch, searchTerm, handleSortByName }) { // The two prop
                     type="text"
                     placeholder="search employee"/>
             </form>
+            </div>
         </div>
     )
 }

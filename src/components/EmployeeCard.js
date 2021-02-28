@@ -2,14 +2,14 @@ import React from "react";
 
  function EmployeeCard({ name, image, dept, email, phone}) { 
     return (
-        <div className="employeeCard bg-white shadow d-flex justify-content-around">
+        <div className="employeeCard bg-white shadow-sm d-flex justify-content-around mb-2">
             <img
                 style={{ maxWidth: "60px"}}
                 className="col rounded"
                 src={image}
                 alt="employee"
             />
-            <p className="col">{name}</p>
+            <p className="col ms-5">{name}</p>
             <p className="col">{dept}</p>
             <p className="col">{email}</p>
             <p className="col">{phone}</p>
