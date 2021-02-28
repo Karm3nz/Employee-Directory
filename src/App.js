@@ -26,7 +26,7 @@ function App() {
     }
 
     // filtering out the names of employees with matching strings 
-    const filteredEmployees = data.filter(employee => employee.name.toLowerCase().startsWith(searchTerm.toLowerCase()));
+    const filteredEmployees = data.filter(employee => employee.name.first.toLowerCase().startsWith(searchTerm.toLowerCase()));
     return (
         <div>
             <Header/>

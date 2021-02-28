@@ -6,12 +6,13 @@ function EmployeeCardList ({ data }) {
     return (
         data.map(employee => (
             <EmployeeCard
-                key={employee.id}
-                image={employee.image}
-                name={employee.name}
-                dept={employee.department}
+                key={employee.login.uuid}
+                image={employee.picture.medium}
+                name={employee.name.first}
+                lastName={employee.name.last}
                 email={employee.email}
                 phone={employee.phone}
+                state={employee.location.state}
             />
         ))
     )
