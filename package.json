@@ -1,6 +1,6 @@
 {
   "name": "employee-directory",
-  "homepage": "https://myusername.github.io/my-app",
+  "homepage": "https://karm3nz.github.io/Employee-Directory/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,7 +15,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "PORT=3007 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
