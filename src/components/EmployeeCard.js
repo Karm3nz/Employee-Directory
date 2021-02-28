@@ -2,7 +2,7 @@ import React from "react";
 
  function EmployeeCard({ name, image, dept, email, phone}) { 
     return (
-        <div className="employeeCard bg-white shadow-sm d-flex justify-content-around mb-2">
+        <div className="employeeCard shadow-sm d-flex justify-content-around mb-2">
             <img
                 style={{ maxWidth: "60px"}}
                 className="col rounded"
