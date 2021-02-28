@@ -25,7 +25,7 @@ function App() {
         }
     }
 
-    // the filteredEmployees variable only stores employee names that start with with the matching string you type
+    // filtering out the names of employees with matching strings 
     const filteredEmployees = data.filter(employee => employee.name.toLowerCase().startsWith(searchTerm.toLowerCase()));
     return (
         <div>
@@ -36,7 +36,6 @@ function App() {
                     searchTerm={searchTerm}
                     handleSortByName={handleSortByName}
                 />
-                {/* the employees array gets the filteredEmployees data via the data prop */}
                 <EmployeeCardList data={filteredEmployees}/>
             </Wrapper>
         </div>
